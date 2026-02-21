@@ -1,31 +1,625 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Website In Progress</title>
-    <style>
-        /* Basic reset */
-        body, html {
-            margin: 0;
-            padding: 0;
-            height: 100%;
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            background-color: white; /* White background */
-            font-family: Arial, sans-serif;
-        }
 
-        /* Text styles */
-        h1 {
-            font-size: 3rem;
-            color: black;
-            text-align: center;
-        }
-    </style>
-</head>
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+        <title>Yejin Oh's Portfolio</title>
+        
+<!-- 
+
+Sentra Template
+
+https://templatemo.com/tm-518-sentra
+
+-->
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="apple-touch-icon" href="apple-touch-icon.png">
+
+        <link rel="stylesheet" href="css/bootstrap.min.css">
+        <link rel="stylesheet" href="css/bootstrap-theme.min.css">
+        <link rel="stylesheet" href="css/fontAwesome.css">
+        <link rel="stylesheet" href="css/light-box.css">
+        <link rel="stylesheet" href="css/owl-carousel.css">
+        <link rel="stylesheet" href="css/templatemo-style.css">
+
+        <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700,800" rel="stylesheet">
+
+        <script src="js/vendor/modernizr-2.8.3-respond-1.4.2.min.js"></script>
+    </head>
+
 <body>
-    <h1>Website In Progress</h1>
+
+
+
+        <header class="nav-down responsive-nav hidden-lg hidden-md">
+            <button type="button" id="nav-toggle" class="navbar-toggle" data-toggle="collapse" data-target="#main-nav">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
+            <!--/.navbar-header-->
+            <div id="main-nav" class="collapse navbar-collapse">
+                <nav>
+                    <ul class="nav navbar-nav">
+                        <li><a href="#top">Home</a></li>
+                        <li><a href="#featured">Featured Projects</a></li>
+                        <li><a href="#bgdesign">Background Design</a></li>
+                        <li><a href="#bgpaint">Background Paint</a></li>
+                        <li><a href="#other">Other</a></li>
+                        <li><a href="#contact">Contact</a></li>
+                    </ul>
+                </nav>
+            </div>
+        </header>
+
+        <div class="sidebar-navigation hidde-sm hidden-xs">
+            <div class="logo">
+                <a href="#"><em>ART OF </em>YEJIN<em> OH</em></a>
+            </div>
+            <nav>
+                <ul>
+                    <li>
+                        <a href="#top">
+                            <span class="rect"></span>
+                            <span class="circle"></span>
+                            Home
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#featured">
+                            <span class="rect"></span>
+                            <span class="circle"></span>
+                            Featured Projects
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#bgdesign">
+                            <span class="rect"></span>
+                            <span class="circle"></span>
+                            Background Design
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#bgpaint">
+                            <span class="rect"></span>
+                            <span class="circle"></span>
+                            Background Paint
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#other">
+                            <span class="rect"></span>
+                            <span class="circle"></span>
+                            Other
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#contact">
+                            <span class="rect"></span>
+                            <span class="circle"></span>
+                            Contact
+                        </a>
+                    </li>
+                </ul>
+            </nav>
+            <ul class="social-icons">
+                <li><a href="https://www.instagram.com/yejin.oh.art"><i class="fa fa-instagram"></i></a></li>
+                <li><a href="https://www.linkedin.com/in/yejin-oh-3b4958104/"><i class="fa fa-linkedin"></i></a></li>
+            </ul>
+        </div>
+
+        <div class="slider">
+            <div class="Modern-Slider content-section" id="top">
+                <div class="item item-4">
+                    <div class="img-fill">
+                    <div class="image"></div>
+                    </div>
+                </div>
+                <!-- Main Image 1 -->
+                <div class="item item-1">
+                    <div class="img-fill">
+                    <div class="image"></div>
+                    </div>
+                </div>
+                <!-- // Item -->
+                <!-- Main Image 2 -->
+                <div class="item item-2">
+                    <div class="img-fill">
+                        <div class="image"></div>
+                    </div>
+                </div>
+                <!-- // Item -->
+                <!-- Main Image 3 -->
+                <div class="item item-3">
+                    <div class="img-fill">
+                        <div class="image"></div>
+                    </div>
+                </div>
+                <!-- // Item -->
+            </div>
+        </div>
+
+
+        <div class="page-content">
+            <section id="featured" class="content-section">
+                <div class="section-heading">
+                    <h1>Featured Projects<br></h1>
+                </div>
+                <div class="section-content">
+                    <div class="owl-carousel owl-theme">
+                        <div class="item">
+                            <div class="image">
+                                <img src="img/featured_1.jpg" alt="">
+                                <div class="featured-button button">
+                                    <a href="project1.html">Continue Reading</a>
+                                </div>
+                            </div>
+                            <div class="text-content">
+                                <h4>Vox Machina (S3-5)</h4>
+                                <span>Background Design & Paint</span>
+                                <p>Animated fantasy series on Amazon Prime</p>
+                            </div>
+                        </div>
+                        <div class="item">
+                            <div class="image">
+                                <img src="img/featured_2.jpg" alt="">
+                                <div class="featured-button button">
+                                    <a href="project2.html">Continue Reading</a>
+                                </div>
+                            </div>
+                            <div class="text-content">
+                                <h4>Pantheon (S1-2)</h4>
+                                <span>Background Paint</span>
+                                <p>Animated sci-fi TV series about AI that aired on AMC+/Amazon Prime</p>
+                            </div>
+                        </div>
+                        <div class="item">
+                            <div class="image">
+                                <img src="img/featured_3.jpg" alt="">
+                                <div class="featured-button button">
+                                    <a href="project3.html">Continue Reading</a>
+                                </div>
+                            </div>
+                            <div class="text-content">
+                                <h4>AREA 21</h4>
+                                <span>VisDev, Background Design & Paint</span>
+                                <p>Animated music video series for electronic music duo by Martin Garrix and Maejor</p>
+                            </div>
+                        </div>
+                        <div class="item">
+                            <div class="image">
+                                <img src="img/featured_4.jpg" alt="">
+                                <div class="featured-button button">
+                                    <a href="project4.html">Continue Reading</a>
+                                </div>
+                            </div>
+                            <div class="text-content">
+                                <h4>Bless the Harts</h4>
+                                <span>TV Animation (S1-2)</span>
+                                <p>Heartwarming Southern sitcom for Fox Animation</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section id="bgdesign" class="content-section">
+                <div class="section-heading">
+                    <h1>Background<br><em>Design</em></h1>
+                    <p>Background designs created from scratch, focusing on world-building, composition, and visual storytelling.
+                    <br>These layouts establish the structure and staging before color is introduced in the paint phase.</p>
+                </div>
+                <div class="section-content">
+                    <div class="masonry">
+                        <div class="row">
+                            <div class="item">
+                                <div class="col-md-6">
+                                    <a href="img/project_area21/AE105_BG_A061_INT_CLUB_UPSHOT_v03_JO_noborder.jpg" data-lightbox="image"><img src="img/project_area21/AE105_BG_A061_INT_CLUB_UPSHOT_v03_JO_noborder.jpg" alt="image 1"></a>
+                                </div>
+                            </div>
+                            <div class="item second-item">
+                                <div class="col-md-6">
+                                    <a href="img/project_area21/AE105_BG_A014_EXT_BEACH_BOARDWALK_DISTANT_DOWNSHOT_v03_JO.jpg" data-lightbox="image"><img src="img/project_area21/AE105_BG_A014_EXT_BEACH_BOARDWALK_DISTANT_DOWNSHOT_v03_JO.jpg" alt="image 2"></a>
+                                </div>
+                            </div>
+                            <div class="item">
+                                <div class="col-md-12">
+                                    <a href="img/project_starwars/WH122_BG_016_INT_SPACE_SLUG_FALCON_LANDING_GEAR_v02_JO.jpg" data-lightbox="image"><img src="img/project_starwars/WH122_BG_016_INT_SPACE_SLUG_FALCON_LANDING_GEAR_v02_JO.jpg" alt="image 5"></a>
+                                </div>
+                            </div>
+                            <div class="item">
+                                <div class="col-md-6">
+                                    <a href="img/project_starwars/WH121_BG_015_EXT_ASSAULT_TRANSPORT_GEONOSIS_WIDE_v01_JO.jpg" data-lightbox="image"><img src="img/project_starwars/WH121_BG_015_EXT_ASSAULT_TRANSPORT_GEONOSIS_WIDE_v01_JO.jpg" alt="image 3"></a>
+                                </div>
+                            </div>
+                            <div class="item">
+                                <div class="col-md-6">
+                                    <a href="img/project_starwars/WH116_BG_001_INT_REBEL_HANGAR_FWD_v02_JO.jpg" data-lightbox="image"><img src="img/project_starwars/WH116_BG_001_INT_REBEL_HANGAR_FWD_v02_JO.jpg" alt="image 4"></a>
+                                </div>
+                            </div>
+                            <div class="item">
+                                <div class="col-md-6">
+                                    <a href="img/project_vox/LVM310_BG_A362_INT_KEYLETH_EARTH_RITUAL_FARMLAND_BW_v02_JO_01.jpg" data-lightbox="image"><img src="img/project_vox/LVM310_BG_A362_INT_KEYLETH_EARTH_RITUAL_FARMLAND_BW_v02_JO_01.jpg" alt="image 5"></a>
+                                </div>
+                            </div>
+                            <div class="item">
+                                <div class="col-md-6">
+                                    <a href="img/project_vox/LVM307_BG_A299_INT_RIPLEY_FACTORY_HOOK_AND_TABLE_WIDE_BW_v03_JO.jpg" data-lightbox="image"><img src="img/project_vox/LVM307_BG_A299_INT_RIPLEY_FACTORY_HOOK_AND_TABLE_WIDE_BW_v03_JO.jpg" alt="image 5"></a>
+                                </div>
+                            </div>
+                            <div class="item">
+                                <div class="col-md-12">
+                                    <a href="img/project_vox/LVM307_BG_A293_INT_RIPLEY_FACTORY_STEAM_TANK_BW_v01_JO.jpg" data-lightbox="image"><img src="img/project_vox/LVM307_BG_A293_INT_RIPLEY_FACTORY_STEAM_TANK_BW_v01_JO.jpg" alt="image 5"></a>
+                                </div>
+                            </div>
+                            <div class="item">
+                                <div class="col-md-12">
+                                    <a href="img/project_other/TT104_BG_119_EXT_PROPECIA_ON_MOUNT_ELIDEL_v02_JO.jpg" data-lightbox="image"><img src="img/project_other/TT104_BG_119_EXT_PROPECIA_ON_MOUNT_ELIDEL_v02_JO.jpg" alt="image 5"></a>
+                                </div>
+                            </div>
+                            <div class="item">
+                                <div class="col-md-12">
+                                    <a href="img/project_other/TT102_BG_002_EXT_CAMPHOR_TOWER_v05_JO.jpg" data-lightbox="image"><img src="img/project_other/TT102_BG_002_EXT_CAMPHOR_TOWER_v05_JO.jpg" alt="image 5"></a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>            
+            </section>
+            <section id="bgpaint" class="content-section">
+                <div class="section-heading">
+                    <h1>Background<br><em>Paint</em></h1>
+                    <p>Final background paintings for production, created from approved design layouts.
+                    <br>Color scripts and lighting directions are explored to support the mood and tone of each scene.</p>
+                </div>
+                <div class="section-content">
+                    <div class="masonry">
+                        <div class="row">
+                            <div class="item second-item">
+                                <div class="col-md-12">
+                                    <a href="img/project_vox/LVM502_BG_A063_EXT_ENTROPIS_TOWER_WIDE_COLOR_V06_JO_01.jpg" data-lightbox="image"><img src="img/project_vox/LVM502_BG_A063_EXT_ENTROPIS_TOWER_WIDE_COLOR_V06_JO_01.jpg" alt="image 2"></a>
+                                </div>
+                            </div>
+                            <div class="item">
+                                <div class="col-md-8">
+                                    <a href="img/project_vox/LVM507_BG_B008_EXT_TITAN_57A_COLOR_V04_JO.jpg" data-lightbox="image"><img src="img/project_vox/LVM507_BG_B008_EXT_TITAN_57A_COLOR_V04_JO.jpg" alt="image 1"></a>
+                                </div>
+                            </div>
+                            <div class="item">
+                                <div class="col-md-4">
+                                    <a href="img/project_vox/LVM412_BG_A373_EXT_ZIGGURAT_ROOF_HOLE_COLOR_v07_JO_04.jpg" data-lightbox="image"><img src="img/project_vox/LVM412_BG_A373_EXT_ZIGGURAT_ROOF_HOLE_COLOR_v07_JO_04.jpg" alt="image 3"></a>
+                                </div>
+                            </div>
+                            <div class="item">
+                                <div class="col-md-12">
+                                    <a href="img/project_pantheon/PN207_BG_A042_EXT_UI_TOPIA_WIDE_FWD_CLEAN_v07_JO.png" data-lightbox="image"><img src="img/project_pantheon/PN207_BG_A042_EXT_UI_TOPIA_WIDE_FWD_CLEAN_v07_JO.png" alt="image 4"></a>
+                                </div>
+                            </div>
+                            <div class="item">
+                                <div class="col-md-4">
+                                    <a href="img/project_pantheon/PN104_BG_A012_INT_PRASAD_TOWER_WIDE DS LIVING AREA_CLEAN_V03_JO.png" data-lightbox="image"><img src="img/project_pantheon/PN104_BG_A012_INT_PRASAD_TOWER_WIDE DS LIVING AREA_CLEAN_V03_JO.png" alt="image 5"></a>
+                                </div>
+                            </div>
+                            <div class="item">
+                                <div class="col-md-4">
+                                    <a href="img/project_pantheon/PN202_BG_A061_INT_RES_SUITE_SERVER_FARM_WIDE_DS_CLEAN_v05_JO.png" data-lightbox="image"><img src="img/project_pantheon/PN202_BG_A061_INT_RES_SUITE_SERVER_FARM_WIDE_DS_CLEAN_v05_JO.png" alt="image 5"></a>
+                                </div>
+                            </div>
+                            <div class="item">
+                                <div class="col-md-4">
+                                    <a href="img/project_pantheon/PN204_BG_A151_INT_OLIVIAS_UI_LIBRARY_WIDE_DS_WINDOW_CLEAN_05_JO.png" data-lightbox="image"><img src="img/project_pantheon/PN204_BG_A151_INT_OLIVIAS_UI_LIBRARY_WIDE_DS_WINDOW_CLEAN_05_JO.png" alt="image 5"></a>
+                                </div>
+                            </div>
+                            <div class="item">
+                                <div class="col-md-8">
+                                    <a href="img/project_bless/BL207_BG_C602_Ext_The_Picturesque_NC_Outer_Banks_Beach_v03_JO.jpg" data-lightbox="image"><img src="img/project_bless/BL207_BG_C602_Ext_The_Picturesque_NC_Outer_Banks_Beach_v03_JO.jpg" alt="image 5"></a>
+                                </div>
+                            </div>
+                            <div class="item">
+                                <div class="col-md-4">
+                                    <a href="img/project_bless/BL221_BG_C620_EXT_BEACH_WIDE_SHOT_v02_JO.jpg" data-lightbox="image"><img src="img/project_bless/BL221_BG_C620_EXT_BEACH_WIDE_SHOT_v02_JO.jpg" alt="image 5"></a>
+                                </div>
+                            </div>
+                            <div class="item">
+                                <div class="col-md-4">
+                                    <a href="img/project_area21/AE102_BG_A040_Ext_Nevada_Desert_Road_to_Vegas_Planet_Wide_v05_JO.jpg" data-lightbox="image"><img src="img/project_area21/AE102_BG_A040_Ext_Nevada_Desert_Road_to_Vegas_Planet_Wide_v05_JO.jpg" alt="image 5"></a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>            
+            </section>
+            <section id="other" class="content-section">
+                <div class="section-heading">
+                    <h1>Other<br><em>Art</em></h1>
+                    <p>Curabitur hendrerit mauris mollis ipsum vulputate rutrum. 
+                    <br>Phasellus luctus odio eget dui imperdiet.</p>
+                </div>
+                <div class="section-content">
+                    <div class="tabs-content">
+                        <div class="wrapper">
+                            <ul class="tabs clearfix" data-tabgroup="first-tab-group">
+                              <li><a href="#tab1" class="active">VASILISA</a></li>
+                              <li><a href="#tab2">RISAUTO</a></li>
+                              <li><a href="#tab3">Other</a></li>
+                            </ul>
+                            <section id="first-tab-group" class="content-section tabgroup">
+                                <div id="tab1">
+                                    <div class="section-content">
+                                        <div class="masonry">
+                                            <div class="item col-md-4">
+                                                <a href="img/project_vasilisa/VasilisaV02_Color_Script_Individual_v07_01.jpg" data-lightbox="tab1">
+                                                    <img src="img/project_vasilisa/VasilisaV02_Color_Script_Individual_v07_01.jpg" class="img-responsive" alt="">
+                                                </a>
+                                            </div>
+                                            <div class="item col-md-4">
+                                                <a href="img/project_vasilisa/VasilisaV02_Color_Script_Individual_v07_02.jpg" data-lightbox="tab1">
+                                                    <img src="img/project_vasilisa/VasilisaV02_Color_Script_Individual_v07_02.jpg" class="img-responsive" alt="">
+                                                </a>    
+                                            </div>
+                                            <div class="item col-md-4">
+                                                <a href="img/project_vasilisa/VasilisaV02_Color_Script_Individual_v07_13.jpg" data-lightbox="tab1">
+                                                    <img src="img/project_vasilisa/VasilisaV02_Color_Script_Individual_v07_13.jpg" class="img-responsive" alt="">
+                                                </a>
+                                            </div>
+                                            <div class="item col-md-12">
+                                                <a href="img/project_vasilisa/VasilisaV02_Concrete_City_Final_v02_JO.jpg" data-lightbox="tab1">
+                                                    <img src="img/project_vasilisa/VasilisaV02_Concrete_City_Final_v02_JO.jpg" class="img-responsive" alt="">
+                                                </a>
+                                            </div>
+                                            <div class="item col-md-4">
+                                                <a href="img/project_vasilisa/VasilisaV02_Color_Script_Individual_v07_04.jpg" data-lightbox="tab1">
+                                                    <img src="img/project_vasilisa/VasilisaV02_Color_Script_Individual_v07_04.jpg" class="img-responsive" alt="">
+                                                </a>
+                                            </div>
+                                            <div class="item col-md-4">
+                                                <a href="img/project_vasilisa/VasilisaV02_Color_Script_Individual_v07_05.jpg" data-lightbox="tab1">
+                                                    <img src="img/project_vasilisa/VasilisaV02_Color_Script_Individual_v07_05.jpg" class="img-responsive" alt="">
+                                                </a>
+                                            </div>
+                                            <div class="item col-md-4">
+                                                <a href="img/project_vasilisa/VasilisaV02_Color_Script_Individual_v07_06.jpg" data-lightbox="tab1">
+                                                    <img src="img/project_vasilisa/VasilisaV02_Color_Script_Individual_v07_06.jpg" class="img-responsive" alt="">
+                                                </a>
+                                            </div>
+                                            <div class="item col-md-4">
+                                                <a href="img/project_vasilisa/VasilisaV02_Color_Script_Individual_v07_07.jpg" data-lightbox="tab1">
+                                                    <img src="img/project_vasilisa/VasilisaV02_Color_Script_Individual_v07_07.jpg" class="img-responsive" alt="">
+                                                </a>
+                                            </div>
+                                            <div class="item col-md-4">
+                                                <a href="img/project_vasilisa/VasilisaV02_Color_Script_Individual_v07_08.jpg" data-lightbox="tab1">
+                                                    <img src="img/project_vasilisa/VasilisaV02_Color_Script_Individual_v07_08.jpg" class="img-responsive" alt="">
+                                                </a>
+                                            </div>
+                                            <div class="item col-md-4">
+                                                <a href="img/project_vasilisa/VasilisaV02_Color_Script_Individual_v07_09.jpg" data-lightbox="tab1">
+                                                    <img src="img/project_vasilisa/VasilisaV02_Color_Script_Individual_v07_09.jpg" class="img-responsive" alt="">
+                                                </a>
+                                            </div>
+                                            <div class="item col-md-4">
+                                                <a href="img/project_vasilisa/VasilisaV02_Color_Script_Individual_v07_10.jpg" data-lightbox="tab1">
+                                                    <img src="img/project_vasilisa/VasilisaV02_Color_Script_Individual_v07_10.jpg" class="img-responsive" alt="">
+                                                </a>
+                                            </div>
+                                            <div class="item col-md-4">
+                                                <a href="img/project_vasilisa/VasilisaV02_Color_Script_Individual_v07_11.jpg" data-lightbox="tab1">
+                                                    <img src="img/project_vasilisa/VasilisaV02_Color_Script_Individual_v07_11.jpg" class="img-responsive" alt="">
+                                                </a>
+                                            </div>
+                                            <div class="item col-md-4">
+                                                <a href="img/project_vasilisa/VasilisaV02_Color_Script_Individual_v07_12.jpg" data-lightbox="tab1">
+                                                    <img src="img/project_vasilisa/VasilisaV02_Color_Script_Individual_v07_12.jpg" class="img-responsive" alt="">
+                                                </a>
+                                            </div>
+                                            <div class="item col-md-12">
+                                                <a href="img/project_vasilisa/char-vasilisa-expressionswhite.jpg" data-lightbox="tab1">
+                                                    <img src="img/project_vasilisa/char-vasilisa-expressionswhite.jpg" class="img-responsive" alt="">
+                                                </a>
+                                            </div>
+                                            <div class="item col-md-12">
+                                                <a href="img/project_vasilisa/VasilisaV02_Char_Design_Vasilisa_v03.jpg" data-lightbox="tab1">
+                                                    <img src="img/project_vasilisa/VasilisaV02_Char_Design_Vasilisa_v03.jpg" class="img-responsive" alt="">
+                                                </a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div id="tab2">
+                                    <div class="section-content">
+                                        <div class="masonry">
+                                            <div class="item col-md-3">
+                                                <a href="img/project_risauto/ref1.jpg" data-lightbox="tab1">
+                                                    <img src="img/project_risauto/ref1.jpg" class="img-responsive" alt="">
+                                                </a>
+                                            </div>
+                                            <div class="item col-md-3">
+                                                <a href="img/project_risauto/ref2.jpg" data-lightbox="tab1">
+                                                    <img src="img/project_risauto/ref2.jpg" class="img-responsive" alt="">
+                                                </a>
+                                            </div>
+                                            <div class="item col-md-3">
+                                                <a href="img/project_risauto/ref3.jpg" data-lightbox="tab1">
+                                                    <img src="img/project_risauto/ref3.jpg" class="img-responsive" alt="">
+                                                </a>
+                                            </div>
+                                            <div class="item col-md-3">
+                                                <a href="img/project_risauto/ref4.jpg" data-lightbox="tab1">
+                                                    <img src="img/project_risauto/ref4.jpg" class="img-responsive" alt="">
+                                                </a>
+                                            </div>
+                                            <div class="item col-md-12">
+                                                <a href="img/project_risauto/Risauto_V02_veh_3Q_v04.png" data-lightbox="tab1">
+                                                    <img src="img/project_risauto/Risauto_V02_veh_3Q_v04.png" class="img-responsive" alt="">
+                                                </a>
+                                            </div>
+                                            <div class="item col-md-12">
+                                                <a href="img/project_risauto/Risauto_V02_Char_Purple_v09.jpg" data-lightbox="tab1">
+                                                    <img src="img/project_risauto/Risauto_V02_Char_Purple_v09.jpg" class="img-responsive" alt="">
+                                                </a>
+                                            </div>
+                                            <div class="item col-md-12">
+                                                <a href="img/project_risauto/Risauto_V02_Char_Neon_v013.jpg" data-lightbox="tab1">
+                                                    <img src="img/project_risauto/Risauto_V02_Char_Neon_v013.jpg" class="img-responsive" alt="">
+                                                </a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div id="tab3">
+                                    <div class="section-content">
+                                        <div class="masonry">
+                                            <div class="item col-md-12">
+                                                <a href="img/project_other/153-variations.png" data-lightbox="tab1">
+                                                    <img src="img/project_other/153-variations.png" class="img-responsive" alt="">
+                                                </a>
+                                            </div>
+                                            <div class="item col-md-6">
+                                                <a href="img/project_other/Apex_04.png" data-lightbox="tab1">
+                                                    <img src="img/project_other/Apex_04.png" class="img-responsive" alt="">
+                                                </a>
+                                            </div>
+                                            <div class="item col-md-6">
+                                                <a href="img/project_other/Apex_06.png" data-lightbox="tab1">
+                                                    <img src="img/project_other/Apex_06.png" class="img-responsive" alt="">
+                                                </a>
+                                            </div>
+                                            <div class="item col-md-6">
+                                                <a href="img/project_other/Apex_07.png" data-lightbox="tab1">
+                                                    <img src="img/project_other/Apex_07.png" class="img-responsive" alt="">
+                                                </a>
+                                            </div>
+                                            <div class="item col-md-6">
+                                                <a href="img/project_other/Apex_11.png" data-lightbox="tab1">
+                                                    <img src="img/project_other/Apex_11.png" class="img-responsive" alt="">
+                                                </a>
+                                            </div>
+                                            <div class="item col-md-12">
+                                                <a href="img/project_other/AVGO_SC09_BG_LO-FG_v02_JO.jpg" data-lightbox="tab1">
+                                                    <img src="img/project_other/AVGO_SC09_BG_LO-FG_v02_JO.jpg" class="img-responsive" alt="">
+                                                </a>
+                                            </div>
+                                            <div class="item col-md-6">
+                                                <a href="img/project_other/TT103_BG_063_EXT_SKY_WINE_PIRATE_SHIPS_v03_JO.jpg" data-lightbox="tab1">
+                                                    <img src="img/project_other/TT103_BG_063_EXT_SKY_WINE_PIRATE_SHIPS_v03_JO.jpg" class="img-responsive" alt="">
+                                                </a>
+                                            </div>
+                                            <div class="item col-md-6">
+                                                <a href="img/project_other/TT101_BOOK_v02_JO.jpg" data-lightbox="tab1">
+                                                    <img src="img/project_other/TT101_BOOK_v02_JO.jpg" class="img-responsive" alt="">
+                                                </a>
+                                            </div>
+                                            <div class="item col-md-12">
+                                                <a href="img/project_other/render5.JPG" data-lightbox="tab1">
+                                                    <img src="img/project_other/render5.JPG" class="img-responsive" alt="">
+                                                </a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div id="tab4">
+                                    
+                                </div>
+                            </section> 
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section id="contact" class="content-section">
+                <div id="contact-content">
+                    <div class="section-heading">
+                        <h1>Contact<br><em>Yejin</em></h1>
+                        <p>Don't hesitate to reach out! Drop a message below or send me an email at: 
+                        <br><em>heyyejinny@gmail.com</em></p>
+                        
+                    </div>
+                    <div class="section-content">
+                        <form id="contact" action="https://formsubmit.co/heyyejinny@gmail.com" method="post">
+                            <div class="row">
+                                <div class="col-md-4">
+                                  <fieldset>
+                                    <input name="name" type="name" class="form-control" id="name" placeholder="Your name..." required="">
+                                  </fieldset>
+                                </div>
+                                <div class="col-md-4">
+                                  <fieldset>
+                                    <input name="email" type="email" class="form-control" id="email" placeholder="Your email..." required="">
+                                  </fieldset>
+                                </div>
+                                <div class="col-md-12">
+                                  <fieldset>
+                                    <textarea name="message" rows="6" class="form-control" id="message" placeholder="Your message..." required=""></textarea>
+                                  </fieldset>
+                                </div>
+                                <div class="col-md-12">
+                                  <fieldset>
+                                    <button type="submit" id="form-submit" class="btn">Send Message Now</button>
+                                  </fieldset>
+                                </div>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </section>
+            <section class="footer">
+                <p>Copyright &copy; 2019 Company Name 
+                
+                . Design: TemplateMo</p>
+            </section>
+        </div>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+    <script>window.jQuery || document.write('<script src="js/vendor/jquery-1.11.2.min.js"><\/script>')</script>
+
+    <script src="js/vendor/bootstrap.min.js"></script>
+    
+    <script src="js/plugins.js"></script>
+    <script src="js/main.js"></script>
+
+    <script>
+        // Hide Header on on scroll down
+        var didScroll;
+        var lastScrollTop = 0;
+        var delta = 5;
+        var navbarHeight = $('header').outerHeight();
+
+        $(window).scroll(function(event){
+            didScroll = true;
+        });
+
+        setInterval(function() {
+            if (didScroll) {
+                hasScrolled();
+                didScroll = false;
+            }
+        }, 250);
+
+        function hasScrolled() {
+            var st = $(this).scrollTop();
+            
+            // Make sure they scroll more than delta
+            if(Math.abs(lastScrollTop - st) <= delta)
+                return;
+            
+            // If they scrolled down and are past the navbar, add class .nav-up.
+            // This is necessary so you never see what is "behind" the navbar.
+            if (st > lastScrollTop && st > navbarHeight){
+                // Scroll Down
+                $('header').removeClass('nav-down').addClass('nav-up');
+            } else {
+                // Scroll Up
+                if(st + $(window).height() < $(document).height()) {
+                    $('header').removeClass('nav-up').addClass('nav-down');
+                }
+            }
+            
+            lastScrollTop = st;
+        }
+    </script>
+
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js" type="text/javascript"></script>
+
 </body>
 </html>
