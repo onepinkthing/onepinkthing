@@ -754,7 +754,7 @@ header {
 #other .tabs li {
   display: inline-block;
   text-align: center;
-  width: 33.333%;
+  width: 25%;
   float: left;
   margin: 0;
   padding: 0;

@@ -37,7 +37,10 @@ jQuery(document).ready(function($) {
             $this.addClass('active');
             $(tabgroup).children('div').hide();
             $(target).show();
-          
+
+          setTimeout(function(){
+            $('.masonry').masonry('layout');
+            }, 100);
         })
 
 
