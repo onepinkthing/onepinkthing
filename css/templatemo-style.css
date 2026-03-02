@@ -414,21 +414,19 @@ header {
 }
 
 .Modern-Slider .item-1 .image {
-  background-image: url(../img/slide_LVM502_BG_A063_EXT_ENTROPIS_TOWER_WIDE_COLOR_V06_JO_01.jpg);
-}
-
-.Modern-Slider .item-2 .image {
   background-image: url(../img/slide_PN207_BG_A042_EXT_UI_TOPIA_WIDE_FWD_CLEAN_v07_JO.png);
 }
 
+.Modern-Slider .item-2 .image {
+  background-image: url(../img/slide_AE102_BG_A040_Ext_Nevada_Desert_Road_to_Vegas_Planet_Wide_v05_JO.jpg);
+}
+
 .Modern-Slider .item-3 .image {
-  background-image: url(../img/slide_LVM411_BG_A282_EXT_THAR_RUINS_FACING_ENTROPIS_COLOR_v04_JO_01.jpg);
+  background-image: url(../img/slide_BL207_BG_C602_Ext_The_Picturesque_NC_Outer_Banks_Beach_v03_JO.jpg);
 }
-
 .Modern-Slider .item-4 .image {
-  background-image: url(../img/slide_LVM501_BG_A076_EXT_FEY_SUSPENDED_RIVER_TRAIL_COLOR_V05_JO.jpg);
+  background-image: url(../img/slide_PN104_BG_A012_INT_PRASAD_TOWER_WIDE_DS_LIVING_AREA_CLEAN_V03_JO.png);
 }
-
 .Modern-Slider .PrevArrow:before{content:'\f104';}
 
 .Modern-Slider .item .image {
